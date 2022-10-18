@@ -179,7 +179,7 @@ int write_unsgnd(int is_negative, int ind,
 	while (precision > length)
 	{
 		buffer[--ind] = '0';
-		lenght++;
+		length++;
 	}
 
 	if ((flags & F_ZERO) && !(flags & F_MINUS))
